@@ -8,6 +8,9 @@ export mongoVersion=6.0.6
 # Start compose 
 docker compose up -d
 
+# Wait for all containers to startup
+sleep 10
+
 # Configure config
 echo -e "\n#############################"
 echo "## Init config"
