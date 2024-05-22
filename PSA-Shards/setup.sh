@@ -3,7 +3,7 @@
 # DB name to shard
 export dbName=MyDatabase
 # Mongo version to use
-export mongoVersion=6.0.6
+export mongoVersion=6.0.15
 
 # Start compose 
 docker compose up -d
